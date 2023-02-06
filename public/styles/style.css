@@ -581,6 +581,24 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-violet-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+}
+
+.via-violet-600 {
+  --tw-gradient-to: rgb(124 58 237 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #7c3aed, var(--tw-gradient-to);
+}
+
+.fill-violet-700 {
+  fill: #6d28d9;
+}
+
+.stroke-violet-600 {
+  stroke: #7c3aed;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -593,9 +611,24 @@ video {
   text-align: right;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-violet-600 {
+  --tw-text-opacity: 1;
+  color: rgb(124 58 237 / var(--tw-text-opacity));
 }
 
 .placeholder\:text-white::-moz-placeholder {
