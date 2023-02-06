@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss public/styles/tailwind.css -o public/styles/style.css",
+    "watch-css": "postcss public/styles/tailwind.css -o public/styles/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmkoeb/calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmkoeb/calculator/issues"
+  },
+  "homepage": "https://github.com/gmkoeb/calculator#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
