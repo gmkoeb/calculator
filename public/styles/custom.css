@@ -24,3 +24,7 @@ html{
 p.equality, p.result{
     font-size: 2rem;
 }
+
+input{
+    letter-spacing: 0.1rem;
+}

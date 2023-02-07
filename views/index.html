@@ -13,11 +13,9 @@
 </head>
 <body>
 <div class="w-max h-max bg-slate-800 text-white p-5 rounded-3xl m-auto mt-56">
-    <p class="text-right mr-1"></p>
-    <div class="flex flex-row items-center justify-between w-72 h-32">
-        <p class="equality"></p>
-        <p class="result"></p>
-    </div>
+    <form action="/" method="post" id="send-operation" class="flex items-center text-center text-slate-600">
+        <input type="text" name="operation" id="desiredOperation" class="w-72 h-20 m-auto mb-4 border rounded-xl text-center text-4xl"> 
+    </form>   
     <div class="buttons grid grid-cols-4 gap-4">
         <button class="text-violet-600" id="CE">CE</button>
         <button id="C">C</button>
@@ -38,8 +36,8 @@
         <button id="plusminus">+/-</button>
         <button>0</button>
         <button id=",">,</button>
-        <button id="equals" type="submit" class="operator"><img class="m-auto w-7" src="/assets/Equals.svg" alt="Equals sign"></button>  
-    </div>
+        <button form="send-operation" type="submit" class="bg-violet-600"><img class="m-auto w-7" src="/assets/Equals.svg" alt="Equals sign"></button> 
+    </div>    
 </div>
 <script src="/modules/main.js"></script>
 </body>
